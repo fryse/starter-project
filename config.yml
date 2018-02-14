@@ -1,0 +1,12 @@
+name: Fryse Starter Page
+description: Your new Fryse page
+
+theme: default
+
+files:
+  - from: css
+    to: assets/css
+  - from: js
+    to: assets/js
+  - from: images
+    to: assets/img

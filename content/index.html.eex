@@ -1,0 +1,5 @@
+---
+title: Home
+layout: home
+---
+<!-- This file does not need any content because the selected layout will do the work for us -->

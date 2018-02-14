@@ -1,0 +1,5 @@
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted"><%= @config.name %></span>
+    </div>
+</footer>
