@@ -25,7 +25,7 @@
             <%= render @page, @document %>
 
             <hr>
-            <% author = FriseDefaultTheme.author(@page, @frontmatter.author) %>
+            <% author = FryseDefaultTheme.author(@page, @frontmatter.author) %>
             <div class="media">
                 <img class="mr-3" style="width: 64px;" src="<%= author.image %>" alt="<%= author.name %>">
                 <div class="media-body">

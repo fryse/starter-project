@@ -21,7 +21,7 @@
         <% latest_post = files_from(@page, "/posts", sort: "order|desc", limit: 1) |> Enum.at(0) %>
 
         <%= if latest_post do %>
-            <% author = FriseDefaultTheme.author(@page, frontmatter(latest_post, "author")) %>
+            <% author = FryseDefaultTheme.author(@page, frontmatter(latest_post, "author")) %>
 
             <div class="jumbotron">
                 <div class="container">
@@ -37,7 +37,7 @@
 
         <main class="container">
             <%= for post <- posts do %>
-                <% author = FriseDefaultTheme.author(@page, frontmatter(post, "author")) %>
+                <% author = FryseDefaultTheme.author(@page, frontmatter(post, "author")) %>
 
                 <h2><a href="<%= link_to(@page, post) %>"><%= frontmatter(post, "title") %></a></h2>
                 <small class="text-muted"><%= author.name %>, <%= frontmatter(post, "date") %></small>

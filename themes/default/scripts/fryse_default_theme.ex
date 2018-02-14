@@ -1,4 +1,4 @@
-defmodule FriseDefaultTheme do
+defmodule FryseDefaultTheme do
   @moduledoc false
 
   def author(%Fryse.Page{fryse: %Fryse{data: data}}, name) do

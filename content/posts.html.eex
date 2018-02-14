@@ -5,7 +5,7 @@ title: Posts
 <% posts = files_from(@page, "/posts", sort: "order|desc") %>
 
 <%= for post <- posts do %>
-    <% author = FriseDefaultTheme.author(@page, frontmatter(post, "author")) %>
+    <% author = FryseDefaultTheme.author(@page, frontmatter(post, "author")) %>
 
     <h2><a href="<%= link_to(@page, post) %>"><%= frontmatter(post, "title") %></a></h2>
     <small class="text-muted"><%= author.name %>, <%= frontmatter(post, "date") %></small>
