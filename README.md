@@ -13,7 +13,7 @@ fryse serve
 
 ## Building and Publishing on GitHub Pages
 
-If you are using Fryse 0.3.0 or later, you can create a build for GitHub Pages.
+If you are using Fryse 0.3.1 or later, you can create a build for GitHub Pages.
 
 This assumes you want to publish a project page using the `gh-pages` branch.
 
