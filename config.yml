@@ -4,6 +4,7 @@ description: Your new Fryse page
 theme: default
 
 # Set to true if you want to generate urls like /posts/your-new-fryse-blog instead of /posts/your-new-fryse-blog.html
+# Supported since Fryse 0.4.0
 clean_urls: false
 
 files:
